@@ -1,0 +1,439 @@
+@media (max-width: 768px) {
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .nav2 ul {
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+
+    .nav2 ul li {
+        margin: 10px 0;
+    }
+
+    .close-icon {
+        display: block;
+    }
+
+    .nav2 {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .nav2.active {
+        display: flex;
+        background-color: black;
+        z-index: 99999;
+    }
+
+    .nav2 ul li ul {
+        margin-left: 100%;
+    }
+
+    .head-middle{
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .stat h4 {
+        font-size: 18px;
+    }
+
+    .stat p {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner2 .button {
+        margin-top: 30px;
+        width: 40%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-section {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .image-section img {
+        margin: 0% auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .features {
+        position: relative;
+        left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .module5-subheading {
+        font-size: 1.2rem;
+    }
+
+    .module5-heading {
+        font-size: 2rem;
+    }
+
+    .categories span {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+
+    .logo-group img {
+        max-width: 120px;
+    }
+
+
+    .review-section h1 {
+        font-size: 2rem;
+    }
+
+    .review-section p {
+        font-size: 1rem;
+    }
+
+
+    .newsletter-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .newsletter-form input[type="email"],
+    .newsletter-form button {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+
+    .newsletter-form button {
+        border-radius: 5px;
+    }
+
+    .location-card {
+        flex: 0 0 50%;
+    }
+
+    .carousel-track {
+        display: inline;
+      }
+}
+
+
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+    
+    .head-middle{
+        display: none;
+    }
+
+    .tel {
+        font-size: 0.80rem;
+    }
+    .service {
+        padding: 15px;
+    }
+
+    .service h3 {
+        font-size: 1rem;
+    }
+
+    .service p {
+        font-size: 0.8rem;
+    }
+
+    .categories {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .categories span {
+        font-size: 0.7rem;
+        padding: 6px 10px;
+        text-align: center;
+    }
+
+    .logo-group img {
+        max-width: 100px;
+    }
+
+    .review-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .review-section p {
+        font-size: 0.9rem;
+    }
+
+    .review-card {
+        padding: 15px;
+        /* justify-content: center; */
+    }
+
+    .rating span {
+        font-size: 0.9rem;
+    }
+
+    .rating-stars {
+        font-size: 1rem;
+    }
+
+    .newsletter-content h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .newsletter-content span {
+        font-size: 0.8rem;
+    }
+
+    .location-card {
+        flex: 0 0 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 746px) {
+    .nav2 {
+        margin-top: 50px;
+    }
+
+    .head-middle{
+        display: none;
+    }
+
+    .carousel-track {
+        display: inline;
+      }
+}
+
+
+
+@media (max-width: 426px) {
+   .logo {
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+    
+    .head-middle{
+        display: none;
+    }
+
+    .tel {
+        font-size: 0.71rem;
+    }
+
+    .menu-icon {
+        margin-top: 60px;
+    }
+
+    header {
+        padding-bottom: 30px;
+        height: fit-content;
+    }
+
+    .nav2 {
+        margin-top: 80px;
+    }
+
+    .nav2 ul li a {
+        font-size: 0.9rem;
+    }
+
+    /* .sub-heading {
+        font-size: 1.2rem;
+        
+      } */
+
+    .projects-section {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .projects-section .success-stories {
+        position: static;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .banner2 {
+        width: 80%;
+    }
+
+    .banner2 .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner .button {
+        width: fit-content;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .stat h4 {
+        font-size: 16px;
+    }
+
+    .stat p {
+        font-size: 10px;
+    }
+
+    .content4 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .carousel-track {
+        display: inline-block;
+      }
+
+}
+
+
+@media (min-width: 1200px) {
+    .categories span {
+        font-size: 1rem;
+        padding: 12px 18px;
+    }
+
+    .logo-group img {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .stat h4 {
+        font-size: 20px;
+    }
+
+    .stat p {
+        font-size: 12px;
+    }
+
+    .module5-subheading {
+        font-size: 1.4rem;
+    }
+
+    .module5-heading {
+        font-size: 2.5rem;
+    }
+
+    .categories span {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    .logo-group img {
+        max-width: 150px;
+    }
+}
